@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.header {
+	background-color: #000;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.header h1 {
+	background-color: #fff;
+	background-image: url(https://climate.aics.riken.jp/members/images/bgi_monotone.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	font-family: "Nimbus Roman No9 L", "Times New Roman";
+	font-size: 48px;
+	line-height: 150%;
+	margin: 0;
+	padding: 20px;
+}
+
+.header h1 a {
+	visibility: hidden;
+}
+
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+
+.header li {
+	background-color: #000;
+	border-right: #fff solid 1px;
+	color: #fff;
+	float: left;
+	font-family: "Nimbus Roman No9 L", "Times New Roman";
+	font-size: 18px;
+	list-style-type: none;
+	padding: 4px 0;
+	text-align: center;
+	width: 160px;
+}
+
+.header li:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.header li a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+.header li a:hover {
+	color: #000;
+	background-color: #fff;
+}

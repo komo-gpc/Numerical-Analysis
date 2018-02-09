@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.sub_content {
+	float: left;
+	margin: 10px 0;
+	width: 240px;
+}
+
+.sub_content div {
+	border: #ccc ridge 1px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.sub_content h2 {
+	background-color: #eee;
+	border: #000 solid 0;
+	border-bottom: #ccc ridge 1px;
+	color: #777;
+	font: 1em normal normal;
+	margin: 0;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.sub_content h3 {
+	border: #000 solid 0;
+	border-bottom: #ccc ridge 1px;
+	color: #f00;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 5px 15px;
+	padding: 0;
+}
+
+.sub_content p {
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 150%;
+	margin: 5px 15px 10px;
+	text-align: left;
+}
+
+.sub_content ul {
+	margin: 5px 0;
+	padding: 0;
+}
+
+.sub_content li {
+	font-size: 0.8em;
+	list-style-type: circle;
+	margin: 0;
+	margin-left: 30px;
+	margin-right: 10px;
+	padding: 0;
+	text-align: left;
+}
+
+.sub_content form {
+	margin: 10px 0;
+	padding: 0;
+	text-align: left;
+}
+
+.sub_content form input[type=text] {
+	margin-left: 15px;
+	width: 140px;
+}
+
+.sub_content div+div {
+	margin-top: 20px;
+}

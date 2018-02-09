@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.footer {
+	background-color: #000;
+	clear: both;
+	margin: 10px auto 0;
+	padding: 10px;
+}
+
+.footer .copyright {
+	color: #aaa;
+}
+
+.footer .visitor {
+	color: #aaa;
+	float: right;
+}
+
+.footer .counter {
+	font-family: "Nimbus Roman No9 L", "Times New Roman";
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.footer address {
+	color: #aaa;
+	font-style: italic;
+}
+
+.footer address a {
+	color: #aaa;
+}
